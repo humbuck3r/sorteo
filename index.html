@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="app-container">
+    <div class="sorteo">
+        <h1>Tu sorteo</h1>
+        <div class="participantes">
+            <input id="nombre"></input>
+            <div class="botones">
+                <button  class="btnsmenu"    id="btn-agregar">agregar participante</button>
+                <button  class="btnsmenu"   id="btn-reset">borrar lista</button>
+                <button  class="btnsmenu"   id="borrar-ultimo">borrar ultimo participante</button>
+            </div>
+        </div>
+
+        <div class="btns">
+            <button  class="btnsmenu" id="btn-sortear">Sortear!!</button>  
+        </div>
+        <h1 >Ganador del sorteo</h1>
+        <div class="ganadores">
+        </div>
+    </div>
+    <div class="list">
+        <h1 class="tittlelist">Listado de participantes</h1>
+        <div>
+            <ul class="listado">
+            </ul>
+        </div>
+    </div>
+</div>
+<script src="functions.js"></script>
+</body>
+</html>

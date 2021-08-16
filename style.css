@@ -1,0 +1,117 @@
+.sorteo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 10px solid black;
+    border-radius: 10%;
+    box-shadow: 3px 5px 5px black;
+    width: 30em;
+    background-color: #F7DBF0;
+    
+}
+.list{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 10px solid black;
+    border-radius: 10%;
+    box-shadow: 3px 5px 5px black;
+    width: 40em;
+    background-color: #CDF0EA;
+}
+.tittlelist{
+    color: black;
+    text-shadow: none;
+}
+.app-container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 4em;
+   
+}
+.ganadores{
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 150%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+
+
+h1{
+    color: black;
+    font-family: 'Indie Flower', cursive;
+}
+h2{
+    color: black;
+    font-family: 'Indie Flower', cursive;
+}
+input{
+    margin-bottom: 15px;
+    border-radius: 10%;
+    
+}
+
+
+.participantes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.premios{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2em;
+
+    
+}
+
+.listado{
+    width: 100%;
+    height: 100%;
+    border: 5px solid black;
+    border-radius: 15%;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 110%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #F9F9F9;
+}
+
+.botones{
+    display: flex;
+    padding: 1em;
+  
+}
+
+.btnsmenu{
+    
+    height: 4em;
+    margin: 0.5em;
+    width: 6em;
+    background: #F9F9F9;
+    border: 2px solid #BEAEE2;
+    cursor: pointer;
+    border-radius: 15%;
+    box-shadow: 1px 1px 1px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.btnsmenu:hover{
+    background: #BEAEE2;
+}
+
+
+.main{
+    font-family: 'Indie Flower', cursive;
+}
